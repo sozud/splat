@@ -31,6 +31,7 @@ segments:
     bss_size: 0x80
     subsegments:
       - [0x1000, c, main]
+      - [0x10A0, c, ../test]
       - [0x10F0, hasm, handwritten]
       - [0x1100, data, main]
       - [0x1110, rodata, main]
